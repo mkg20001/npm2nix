@@ -30,6 +30,7 @@
     "nyc": "*"
   },
   "dependencies": {
-    "mkgs-tool": "^0.1.6"
+    "mkgs-tool": "^0.1.6",
+    "node-fetch": "^2.6.0"
   }
 }
