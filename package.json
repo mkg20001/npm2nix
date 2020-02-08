@@ -1,0 +1,35 @@
+{
+  "name": "npm2nix",
+  "version": "0.0.1",
+  "description": "npm2nix is a mad project to allow globally installing any node package via the nix registry",
+  "main": "index.js",
+  "template": {
+    "extends": [
+      "node",
+      "nix"
+    ]
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha -A",
+    "cov": "nyc mocha"
+  },
+  "keywords": [
+    "npm",
+    "nix",
+    "nixos",
+    "nix-channel",
+    "registry"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "*",
+    "nyc": "*"
+  },
+  "dependencies": {
+    "mkgs-tool": "^0.1.6"
+  }
+}
